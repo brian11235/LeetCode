@@ -2,7 +2,14 @@ package leetcode;
 
 import java.util.HashMap;
 import java.util.Map;
-
+/**
+ * Two Sum
+ * 思路：跑一個for迭代,每次都檢查map,只要map裡面存在target-nums[]的值,直接return, 若無,把這組值存放到map裡面
+ * 
+ * 
+ * @author linbrian
+ *
+ */
 public class leetcode1 {
 //	public static int[] twoSum(int[] nums, int target) {
 //		int total;
